@@ -19,6 +19,9 @@
 		background-color: #F5F0F0;
 		margin: 0;
 		padding: 0;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
 	}
 
 	section {
@@ -26,7 +29,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
+		flex: 1;
 	}
 
 	.logo-container {
@@ -40,12 +43,12 @@
 	.logo-container img {
 		width: 100%;
 		height: 100%;
+		
 		object-fit: cover;
 	}
 
 	h2 {
 		font-size: 2rem;
-		font-family: 'Times New Roman', Times, serif;
 		margin-top: 20px;
 	}
 </style>
