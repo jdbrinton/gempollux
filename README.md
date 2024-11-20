@@ -36,4 +36,12 @@ To run this project locally, follow these steps:
    git clone git@github.com:jdbrinton/gempollux.git
    cd gempollux
    npm run dev
+   ```
+
+To create a production version of your app:
+
+1. **Clone the Repository**:
+   ```bash
+    npm run build
+   ```
 
